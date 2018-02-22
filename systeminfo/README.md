@@ -7,27 +7,23 @@ author: Sophie Heseltine
 Overview
 --------
 
-A python package that can be installed with pip.
+A project that displays the platform information of the machine it is running on.
 
-Installation / Usage
+
+Installation
 --------------------
 
-To install use pip:
-
-    $ pip install systeminfo
-
-
-Or clone the repo:
+To install, first clone the repository from github:
 
     $ git clone https://github.com/sophieheseltine/systeminfo.git
-    $ python setup.py install
     
-Contributing
-------------
+Navigate to systeminfo/systeminfo to install the systeminfo package:
 
-TBD
+    $ pip install -e .
+    
+    
+    
+Usage
+--------------------
 
-Example
--------
-
-TBD
+See README.md file in flask repository for functions there
